@@ -193,7 +193,7 @@ on boot
     chmod 600 /sys/bus/iio/devices/iio:device0/scan_elements/in_magn_z_en
     chmod 600 /sys/bus/iio/devices/iio:device0/scan_elements/in_timestamp_en
     chmod 600 /sys/bus/iio/devices/iio:device0/temperature
-    chmod 600 /sys/bus/iio/devices/iio:device0/trigger/current_trigger
+    chmod 600 /sys/bus/iio/devices/iio:device0/trigger/current_trigger    
     chmod 600 /dev/iio:device1
     chmod 600 /sys/bus/iio/devices/trigger1/name
     chmod 600 /sys/bus/iio/devices/iio:device1/buffer/length

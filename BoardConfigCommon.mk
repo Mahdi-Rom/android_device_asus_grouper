@@ -33,6 +33,7 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
 TARGET_ARCH := arm
+TARGET_SUBARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a9
 
@@ -83,4 +84,5 @@ BOARD_USES_GROUPER_MODULES := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
-TARGET_KERNEL_CONFIG := cyanogenmod_grouper_defconfig
+TARGET_KERNEL_CONFIG := tegra3_android_defconfig
+

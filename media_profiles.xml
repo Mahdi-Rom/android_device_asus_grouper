@@ -207,7 +207,7 @@
              bitRate="96000"
              sampleRate="16000"
              channels="1" />
-    </EncoderProfile>
+    </EncoderProfile>   	     
 
     <ImageEncoding quality="90" />
     <ImageEncoding quality="80" />
