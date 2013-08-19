@@ -84,7 +84,7 @@ BOARD_USES_GROUPER_MODULES := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 TARGET_KERNEL_SOURCE := kernel/asus/grouper
-TARGET_KERNEL_CONFIG := tegra3_android_defconfig
+TARGET_KERNEL_CONFIG := mahdi-grouper-4.3_defconfig
 
 BOARD_SEPOLICY_DIRS += \
 	device/asus/grouper/sepolicy
