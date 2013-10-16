@@ -35,6 +35,7 @@ BOARD_LIB_DUMPSTATE := libdumpstate.grouper
 
 TARGET_RECOVERY_UI_LIB := librecovery_ui_grouper
 RECOVERY_FSTAB_VERSION := 2
+BOARD_RECOVERY_SWIPE := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/asus/grouper
 
