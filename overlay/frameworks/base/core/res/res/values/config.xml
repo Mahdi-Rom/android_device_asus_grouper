@@ -227,7 +227,7 @@
     <bool name="config_unplugTurnsOnScreen">true</bool>
 
      <!-- If this is true, the screen will fade off. -->
-    <bool name="config_animateScreenLights">true</bool>
+    <bool name="config_animateScreenLights">false</bool>
 
     <!-- Boolean indicating if current platform need do one-time bluetooth address
          re-validation -->
