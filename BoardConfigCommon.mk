@@ -33,7 +33,6 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
 TARGET_ARCH := arm
-TARGET_SUBARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a9
 
@@ -80,8 +79,6 @@ NEED_WORKAROUND_CORTEX_A9_745320 := true
 
 BOARD_USES_GROUPER_MODULES := true
 
-TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
-
 # Required for CWM
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_RECOVERY_SWIPE := true
@@ -90,22 +87,3 @@ TARGET_KERNEL_SOURCE := kernel/asus/grouper
 TARGET_KERNEL_CONFIG := mahdi-grouper_defconfig
 
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
-
-BOARD_SEPOLICY_DIRS += \
-        device/asus/grouper/sepolicy
-
-BOARD_SEPOLICY_UNION := \
-         file_contexts \
-         genfs_contexts \
-         app.te \
-         btmacreader.te \
-         device.te \
-         drmserver.te \
-         init_shell.te \
-         file.te \
-         rild.te \
-         sensors_config.te \
-         shell.te \
-         surfaceflinger.te \
-         system.te \
-         zygote.te
