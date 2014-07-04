@@ -1,42 +1,7 @@
 [
-    {
-        "repository":   "android_vendor_asus",
-        "target_path":  "vendor/asus",
-        "revision":     "kk-4.4.3"
-    },
-    {
-        "repository":   "android_vendor_broadcom",
-        "target_path":  "vendor/broadcom",
-        "revision":     "kk-4.4.3"
-    },
-    {
-	"repository":   "android_vendor_elan",
-        "target_path":  "vendor/elan",
-        "revision":     "kk-4.4.3"
-    },
-    {
-        "repository":   "android_vendor_invensense",
-        "target_path":  "vendor/invensense",
-        "revision":     "kk-4.4.3"
-    },
-    {
-        "repository":   "android_vendor_nvidia",
-        "target_path":  "vendor/nvidia",
-        "revision":     "kk-4.4.3"
-    },
-    {
-	"repository":	"android_vendor_nxp",
-        "target_path":  "vendor/nxp",
-        "revision":     "kk-4.4.3"
-    },
-    {
-        "repository":   "android_vendor_widevine",
-        "target_path":  "vendor/widevine",
-        "revision":     "kk-4.4.3"
-    },
-    {
-        "repository":   "android_kernel_asus_grouper",
-        "target_path":  "kernel/asus/grouper",
-        "revision":     "kk-4.4.3"
-    }
+ {
+   "repository":   "android_kernel_asus_grouper",
+   "target_path":  "kernel/asus/grouper",
+   "revision":     "kk-4.4.3"
+ }
 ]
